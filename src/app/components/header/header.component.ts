@@ -10,4 +10,7 @@ import { ButtonComponent } from '../button/button.component';
 })
 export class HeaderComponent {
   title: string = 'Task Tracker';
+  toggleAddTask = ()=>{
+    alert('its working')
+  }
 }
