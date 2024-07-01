@@ -11,8 +11,6 @@ import { TaskItemComponent } from '../task-item/task-item.component';
   styleUrl: './tasks.component.css'
 })
 export class TasksComponent {
-
   tasks: TTask[] = TASKS;
 
-  
 }

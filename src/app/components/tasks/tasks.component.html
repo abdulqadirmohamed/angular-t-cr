@@ -1,10 +1,7 @@
-<!-- @for (task of tasks; track task.id) {
-  <div>
-    <p ke>{{task.text}}</p>
-    <p>{{task.day}}</p>
-  </div>
-} -->
+@for (task of tasks; track task.id) {
+<div>
+  <app-task-item [tasks]="tasks"></app-task-item>
+</div>
+}
 
-<app-task-item @for (task of tasks; track task.id)>
-
-</app-task-item>
+<!-- <app-task-item *ngFor="let task of tasks" [task]="task"></app-task-item> -->

@@ -10,5 +10,6 @@ import { TASKS } from '../../mock-tasks';
   styleUrl: './task-item.component.css'
 })
 export class TaskItemComponent {
-  @Input() task: TTask[] = TASKS;
+  @Input() tasks: TTask[] = TASKS
+  // @Input() task!: TTask;
 }
