@@ -1,6 +1,6 @@
-import { Component, Input } from '@angular/core';
-import { TTask } from '../../types/Task';
-import { TASKS } from '../../mock-tasks';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { TProduct } from '../../types/Task';
+// import { products } from '../../mock-tasks';
 
 @Component({
   selector: 'app-task-item',
@@ -10,6 +10,13 @@ import { TASKS } from '../../mock-tasks';
   styleUrl: './task-item.component.css'
 })
 export class TaskItemComponent {
-  @Input() tasks: TTask[] = TASKS
-  // @Input() task!: TTask;
+  @Input() product?: any
+
+  // @Input() childMessage?: string;
+
+  // @Output() messageEvent = new EventEmitter<string>();
+  
+  // sendMessageToParent(){
+  //   this.messageEvent.emit("Hello from child");
+  // }
 }

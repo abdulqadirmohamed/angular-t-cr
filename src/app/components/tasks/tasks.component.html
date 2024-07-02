@@ -1,7 +1,5 @@
-@for (task of tasks; track task.id) {
+@for (product of products; track product.name) {
 <div>
-  <app-task-item [tasks]="tasks"></app-task-item>
+  <app-task-item [product]="product"></app-task-item>
 </div>
 }
-
-<!-- <app-task-item *ngFor="let task of tasks" [task]="task"></app-task-item> -->

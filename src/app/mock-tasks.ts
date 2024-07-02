@@ -1,6 +1,6 @@
-import { TTask } from "./types/Task";
+import { TProduct } from "./types/Task";
 
-export const TASKS: TTask[] = [
+export const products: TProduct[] = [
     {
         id: 1,
         text: 'Doctors Appointment',

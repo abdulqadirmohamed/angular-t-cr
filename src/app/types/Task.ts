@@ -1,4 +1,4 @@
-export interface TTask {
+export interface TProduct {
     id?: number;
     text: string;
     day: string;
